@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./effects.css">
+    <title>Ravi teja| profolio</title>
+    <script src="https://kit.fontawesome.com/fb353cee94.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#header"><img src="./Images/IMG_20230713_135417-removebg-preview.png" alt="" class="logo"></a>
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="./Images/FRESHER RESUME RAVI TEJA.pdf" download="santosh CV">Download CV</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <br>
+                <h1>HI, I'm </h1>
+                <h2>Ravi Teja Kankatala</h2>
+            
+                <h1>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="./Images/Picsart_23-07-11_19-21-33-549.jpg" alt="">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p style="font-size: large;">“My name is Ravi teja Kankatala and I am a web Developer from hydrabad, India. I have
+                        completed Btech Mechanical Engeering,2022 form Dr Paul Raj Engeering college, Jntuk University Bhadrachalam.
+                         I have technology skill like HTML, CSS,
+                        Java script, JSON, jQuery, Bootstrap, Github, Node Js, Express Js ,SQL”</p>
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="contentLoad('technology')">Technology</p>
+                        <p class="tab-link" onclick="contentLoad('skills')">Skills</p>
+                        <p class="tab-link" onclick="contentLoad('experience')">Experience</p>
+                        <p class="tab-link" onclick="contentLoad('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="technology" >
+                        <ul >
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>Node Js</li>
+                            <li>Express Js</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>UI</span><br /> Designing Web</li>
+                            <li><span>Web Development</span><br /> Web Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                           Iam Fresher
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span>  --  70%<br /> B Tech  in Mechanical Engeering from Dr paul Raj Engeering College,Bhadrachalam.</li>
+                            <li><span>2018</span>  --  65.5%<br /> Diploma in Mechanical Engeering from Col D S Raju Polytechnic College,Poduru.</li>
+                            <li><span>2014</span>  --  7.8 GPA<br /> SSC in Red Rose EM School,Peravali.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------services---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h1>web Development</h1>
+                    <p>Creating Professional web design/development and implementation of websites, web portals and
+                        other solutions.</p>
+                    <a href="">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h1>UI design</h1>
+                    <p>Creating Professional UI design and implementation of websites, Making user experience layout
+                        with responsive website for all devices</p>
+                    <a href="">Learn more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------portfolio------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Images/2023-07-13 (2).png" alt="">
+                    <div class="layer">
+                        <h3>Shooping Site</h3>
+                        <p>To Creat the Shopping Site IN the Front End Only.</p>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/2023-07-13.png" alt="">
+                    <div class="layer">
+                        <h3>Travel & Driving School Site</h3>
+                        <p> TO Book the Buses,Cars,Vans and to Appointment the Driving Class.</p>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/2023-07-13 (1).png" alt="">
+                    <div class="layer">
+                        <h3>Contact ME PAge </h3>
+                        <p>To CReate Contact me, to show the Msg in the Google sheet.</p>
+                       
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/2023-07-13 (3).png" alt="">
+                    <div class="layer">
+                        <h3>Instamart site</h3>
+                        <p>To order home need items( but stilling working).</p>
+                       
+                    </div>
+                </div>
+                         </div>
+            <a href="" class="seeMoreBtn">See More</a>
+        </div>
+    </div>
+    <!---------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> <a
+                            href="mailto:raviteja.rj1@gmail.com">raviteja.rj1@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+918297711417">+918297711417</a>
+                    </p>
+                    <div class="social-icon">
+
+                        <a href="https://api.whatsapp.com/send/?phone=%2B917978468995&text&type=phone_number&app_absent=0"
+                            target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    </div>
+                    <a href="./Images/FRESHER RESUME RAVI TEJA.pdf" download="Ravi Teja CV" class="seeMoreBtn cvBtn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter Your email" required>
+                        <textarea name="message" id="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="seeMoreBtn cvBtn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &#169; Ravi teja, Made With <i class="fa-solid fa-heart"></i>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-link');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function contentLoad(tabName) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+    </script>
+
+    <script>
+        sidemenu = document.getElementById('sideMenu');
+
+        function openMenu() {
+            // sidemenu.style.right = '0';
+            sidemenu.style.display = 'block';
+        }
+        function closeMenu() {
+            // sidemenu.style.right = '-20rem';
+            sidemenu.style.display = 'none';
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwrR4mrSaXUTjvfEFtDcbplNcJNYpT5lj5J-smKuA_Xil4BLP7NOw1ZnEWnjzMdc9rwhg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = 'Message Sent Successfully'
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 1000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
